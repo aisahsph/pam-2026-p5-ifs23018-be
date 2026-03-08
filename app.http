@@ -106,7 +106,7 @@ Content-Type: image/png
 --WebAppBoundary--
 
 ### Mengambil data tumbuhan berdasarkan id-nya
-@userId = 14097c71-60f1-4079-b5c3-ffd22d105130
+@userId = d8d0a68d-e7e8-4c48-9550-df9b7ba9741f
 
 # @name GetMyPhoto
 GET {{BaseUrl}}/images/users/{{userId}}
