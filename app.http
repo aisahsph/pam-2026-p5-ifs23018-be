@@ -1,6 +1,6 @@
 ## Global Variabel
 @BaseUrl = https://pam-2026-p5-ifs23018-be.s1if.site:8080/
-#@BaseUrl = http://127.0.0.1:8000
+#@BaseUrl = http://172.28.43.54:8000
 
 ### ---------------------------------------
 ## Auth
@@ -13,7 +13,7 @@ Content-Type: application/json
 
 {
   "name": "Aisah",
-  "username": "aisah",
+  "username": "tester",
   "password": "tester"
 }
 
@@ -106,7 +106,7 @@ Content-Type: image/png
 --WebAppBoundary--
 
 ### Mengambil data tumbuhan berdasarkan id-nya
-@userId = 99471c60-e2f1-4be6-9283-6e276841fe69
+@userId = 14097c71-60f1-4079-b5c3-ffd22d105130
 
 # @name GetMyPhoto
 GET {{BaseUrl}}/images/users/{{userId}}
